@@ -4,7 +4,7 @@ import _ from 'lodash';
 import {QueryCtrl} from 'app/plugins/sdk';
 import './css/query_editor.css!';
 
-export class ChangeMyNameQueryCtrl extends QueryCtrl {
+export class TeamcityDataSourceQueryCtrl extends QueryCtrl {
   static templateUrl = 'partials/query.editor.html';
 
   defaults = {
@@ -17,7 +17,8 @@ export class ChangeMyNameQueryCtrl extends QueryCtrl {
     _.defaultsDeep(this.target, this.defaults);
 
     this.target.target = this.target.target || 'select metric';
-    this.target.type = this.target.type || 'timeserie';
+      this.target.type = this.target.type || 'build';
+      this.target.field = this.target.field || 'status';
   }
 
   getOptions(query) {

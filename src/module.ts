@@ -1,14 +1,19 @@
 import TeamcityDataSource from './datasource';
-import {ChangeMyNameQueryCtrl} from './query_ctrl';
-import {ChangeMyNameConfigCtrl} from './config_ctrl';
+import {TeamcityDataSourceQueryCtrl} from './query_ctrl';
+import {TeamcityDataSourceConfigCtrl} from './config_ctrl';
 
-class ChangeMyNameAnnotationsQueryCtrl {
+class TeamCityQueryOptionsCtrl {
+    static templateUrl = 'partials/query.options.html';
+}
+
+class  TeamcityDataSourceAnnotationsQueryCtrl {
   static templateUrl = 'partials/annotations.editor.html';
 }
 
 export {
     TeamcityDataSource as Datasource,
-  ChangeMyNameQueryCtrl as QueryCtrl,
-  ChangeMyNameConfigCtrl as ConfigCtrl,
-  ChangeMyNameAnnotationsQueryCtrl as AnnotationsQueryCtrl,
+    TeamcityDataSourceQueryCtrl as QueryCtrl,
+    TeamcityDataSourceConfigCtrl as ConfigCtrl,
+    TeamCityQueryOptionsCtrl as QueryOptionsCtrl,
+    TeamcityDataSourceAnnotationsQueryCtrl as AnnotationsQueryCtrl,
 };
