@@ -117,7 +117,7 @@ export default class TeamcityDataSource {
         var from = encodeURIComponent(moment(request.from).format("YYYYMMDDTHHmmssZ"))
         var to = encodeURIComponent(moment(request.to).format("YYYYMMDDTHHmmssZ"))
         var url = `${this.url}/httpAuth/app/rest/buildTypes/id:${request.buildId}`
-            + `/builds?locator=start:0,count:10,defaultFilter:false&`
+            + `/builds?locator=start:0,count:1,defaultFilter:false&`
             + 'fields=build(webUrl,id,state,number,status,statusText,finishDate,buildType(name,projectName))'
         return this.doRequest({
             url: url,

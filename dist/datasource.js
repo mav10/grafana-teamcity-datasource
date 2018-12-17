@@ -37,7 +37,7 @@ System.register(['moment', "./typings/types"], function(exports_1) {
                         var from = encodeURIComponent(moment_1["default"](request.from).format("YYYYMMDDTHHmmssZ"));
                         var to = encodeURIComponent(moment_1["default"](request.to).format("YYYYMMDDTHHmmssZ"));
                         var url = (_this.url + "/httpAuth/app/rest/buildTypes/id:" + request.buildId)
-                            + "/builds?locator=start:0,count:10,defaultFilter:false&"
+                            + "/builds?locator=start:0,count:1,defaultFilter:false&"
                             + 'fields=build(webUrl,id,state,number,status,statusText,finishDate,buildType(name,projectName))';
                         return _this.doRequest({
                             url: url,

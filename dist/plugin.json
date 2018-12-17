@@ -19,7 +19,7 @@
       {"name": "MIT License", "url": "https://github.com/mav10/grafana-teamcity-datasource/blob/master/LICENSE"}
     ],
     "version": "0.0.1",
-    "updated": "2018-12-06"
+    "updated": "2018-12-17"
   },
 
   "dependencies": {
