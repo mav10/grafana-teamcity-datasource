@@ -2,7 +2,7 @@
 
 import moment from 'moment';
 
-import {ITarget} from "./typings/queryOptions";
+import {ITarget} from "./types/queryOptions";
 import {
     IBuildFromResponse, BuildFields,
     buildRequests, IExtendedBuildType,
@@ -10,7 +10,7 @@ import {
     IHeaders,
     IInstanceSettings,
     IQueryOptions, IRequestOptions, SeriesResult, BuildStates, TargetTypes,
-} from "./typings/types";
+} from "./types/types";
 
 export default class TeamcityDataSource {
     id: number;

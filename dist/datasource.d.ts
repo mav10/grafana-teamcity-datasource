@@ -1,6 +1,6 @@
 /// <reference path="../node_modules/grafana-sdk-mocks/app/headers/common.d.ts" />
-import { ITarget } from "./typings/queryOptions";
-import { BuildFields, buildRequests, IExtendedBuildType, IFields, IHeaders, IInstanceSettings, IQueryOptions, IRequestOptions, SeriesResult } from "./typings/types";
+import { ITarget } from "./types/queryOptions";
+import { BuildFields, buildRequests, IExtendedBuildType, IFields, IHeaders, IInstanceSettings, IQueryOptions, IRequestOptions, SeriesResult } from "./types/types";
 export default class TeamcityDataSource {
     private $q;
     id: number;

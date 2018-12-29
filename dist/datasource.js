@@ -1,5 +1,5 @@
 ///<reference path="../node_modules/grafana-sdk-mocks/app/headers/common.d.ts" />
-System.register(['moment', "./typings/types"], function(exports_1) {
+System.register(['moment', "./types/types"], function(exports_1) {
     var moment_1, types_1;
     var TeamcityDataSource;
     return {

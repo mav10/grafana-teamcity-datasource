@@ -4,22 +4,22 @@
   "id": "teamcity-datasource",
 
   "info": {
-    "description": "Import data build, projects) from teamcity into Grafana as real-time client",
+    "description": "Import data builds, projects from teamcity into Grafana as real-time client",
     "author": {
       "name": "Vasin Maxim",
       "url": "https://github.com/mav10"
     },
     "keywords": ["grafana", "teamcity", "plugin", "datasource"],
     "logos": {
-      "small": "img/your_logo.png",
-      "large": "img/your_logo.png"
+      "small": "img/logo.png",
+      "large": "img/logo.png"
     },
     "links": [
       {"name": "Project site", "url": "https://github.com/mav10/grafana-teamcity-datasource"},
       {"name": "MIT License", "url": "https://github.com/mav10/grafana-teamcity-datasource/blob/master/LICENSE"}
     ],
     "version": "0.0.1",
-    "updated": "2018-12-17"
+    "updated": "2018-12-30"
   },
 
   "dependencies": {
