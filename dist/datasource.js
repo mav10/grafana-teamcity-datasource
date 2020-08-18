@@ -80,7 +80,7 @@ System.register(['moment', "./typings/types"], function(exports_1) {
                     };
                     this.mapResult = function (target, items) {
                         return {
-                            target: target.target,
+                            target: target.target + target.field,
                             datapoints: items
                                 .map(function (item) { return [item[target.field], item.date]; })
                         };

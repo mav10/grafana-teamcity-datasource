@@ -162,7 +162,7 @@ export default class TeamcityDataSource {
 
     mapResult = (target: ITarget, items: BuildFields[]): SeriesResult => {
         return {
-            target: target.target,
+            target: target.target+target.field,
             datapoints: items
                 .map(item => [item[target.field], item.date])
         }
